@@ -1,0 +1,2 @@
+# Detectron2_Training_Metric_Visualizations
+This Repo contains a python script and jupyter notebook file that converts visualizes the loss curve training process. I needed this for my Internship project to determine if we should train for more iterations, and thought it would be useful for people to visualize how well their model is training. Visualizes data taken from Detectron2 metrics.json output file
