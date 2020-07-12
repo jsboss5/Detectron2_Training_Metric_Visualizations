@@ -1,0 +1,22 @@
+Here are the instructions for using this folder to generate a 
+plot of the loss with respect to iterations. 
+
+I am using this in order to visualize training and determine if I 
+need to train with more iterations 
+
+Instructions:
+1. Create an empty file with the .csv extension to write data to
+
+2. open jsonRead.py, and replace the file in main with the file to the
+metrics json that is output from detectron train package. Should be found
+in the output folder
+
+3. Run jsonRead.py on that file only once, make sure to correctly include 
+your csv file path in the CSVwrite function of jsonRead.py
+
+4. Check your csv file to ensure everything has been written correctly
+
+5. Next open the CSVread.ipynb jupyter notebook and change your csv file 
+path to your correct csv file path. Then run all of the cells and view
+the plots. You can change the fit function as you wish. i have included 3 
+functions there
