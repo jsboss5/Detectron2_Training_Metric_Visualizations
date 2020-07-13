@@ -5,12 +5,9 @@ This Repo contains a python script and jupyter notebook file that converts visua
 ## Instructions to Plot Loss Function:
 1. Create an empty file with the .csv extension to write data to
 
-2. open jsonRead.py, and replace the file in the main function with the file to 
-the metrics json that is output from detectron train package. Should be found
-in the output folder
+2. Open jsonRead.py, and replace the file paths in the main function with first, the file to the metrics json that is output from detectron train package (Should be found in the output folder), and second to the path that is your empty CSV file. 
 
-3. Run jsonRead.py on that file only once, make sure to correctly include 
-your csv file path in the CSVwrite function of jsonRead.py
+3. Run jsonRead.py on that file only once.
 
 4. Check your csv file to ensure everything has been written correctly
 
